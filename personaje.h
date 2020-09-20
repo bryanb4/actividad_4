@@ -11,7 +11,7 @@ struct personaje
 }personajes[5];
 unsigned int cont =0;
 
-void capturar_persona(){
+void capturar_personajes(){
     if(cont < 5){
 
         printf("nombre: ");
@@ -43,4 +43,4 @@ void mostrar_personajes(){
     
 }
 
-#endif PERSONAJE_H
+#endif 
