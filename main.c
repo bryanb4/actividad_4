@@ -47,11 +47,11 @@ int main(){
             break;
         case '2':
             printf("escribe una cadena de hasta 20 caracteres: ");
+            fflush(stdin);
             fgets(cadena, sizeof(cadena), stdin);
             printf("n: ");
             scanf("%i", &n);
             mostrar(n, cadena);
-
             break;
         case '3':
             break;
